@@ -1,2 +1,2 @@
-createVM.txt lsd1312/mine
+createVM.txt cloudedchain/mmne
 testing ```ubuntu:rolling``` LTS images
