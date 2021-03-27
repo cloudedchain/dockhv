@@ -66,6 +66,8 @@ COPY . /app
 RUN chmod +x /app/conf.d/websockify.sh
 RUN chmod +x /app/run.sh
 RUN chmod +x /app/expect_vnc.sh
+EXPOSE 443/tcp
+EXPOSE 443/udp
 USER ubuntu
 #RUN echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' >> /etc/apt/sources.list
 #RUN echo "deb http://deb.anydesk.com/ all main"  >> /etc/apt/sources.list
